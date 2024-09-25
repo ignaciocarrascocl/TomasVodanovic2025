@@ -1,16 +1,74 @@
 <template>
-    <div class="px-4 py-5 my-5 text-center">
-      <i class="bi bi-bootstrap d-block mx-auto mb-4" style="font-size: 72px;"></i> <!-- Replaced image with Bootstrap icon -->
-      <h1 class="display-5 fw-bold">Centered hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
-        </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-        </div>
+  <div id="fullpage">
+    <!-- This section should use "assets/img/figura.png" as cover background.
+    This section shoul have an image at the bottom "assets/img/bottombg.png" -->
+    <div class="section section-1">
+
+      <!-- Columna izquierda. -->
+      <img src="assets/img/tomas.png" alt="">
+
+      <!-- Columna derecha. -->
+      <img src="assets/img/logo.png" alt="">
+      <button>DESCARGA EL PROGRAMA</button>
+      <button>REGISTRO VOLUNTARIOS</button>
+
+      <!-- Fixed on right side: -->
+      <div class="d-flex justify-content-center">
+        <a href="https://instagram.com" target="_blank" class="mx-3 text-dark">
+          <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="mx-3 text-dark">
+          <i class="bi bi-twitter" style="font-size: 2rem;"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="mx-3 text-dark">
+          <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+        </a>
       </div>
     </div>
-  </template>
-  
+
+    <div class="section section-2">Section 2</div>
+    <div class="section section-3">Section 3</div>
+  </div>
+</template>
+
+<script setup>
+import { onMounted } from 'vue';
+import { useNuxtApp } from '#app';
+
+onMounted(() => {
+  if (process.client) {
+    const { $fullpage } = useNuxtApp();
+
+    new $fullpage('#fullpage', {
+      // Options for fullpage.js
+      autoScrolling: true,
+      navigation: true
+    });
+  }
+});
+</script>
+
+<style scoped>
+.section-1 {
+  background-color: #223B82;
+  height: 100vh;
+}
+
+.section-2 {
+  background-color: #E64549;
+  height: 100vh;
+}
+
+.section-3 {
+  background-color: #36A3DC;
+  height: 100vh;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+</style>

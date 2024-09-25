@@ -1,3 +1,11 @@
 :root {
   --bs-tertiary-bg-rgb: 101, 127, 220;
 }
+div.fp-watermark {
+  display: none;
+}
+* {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
