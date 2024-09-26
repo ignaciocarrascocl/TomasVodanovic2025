@@ -1,29 +1,8 @@
 <template>
   <div id="fullpage">
-    <!-- This section should use "assets/img/figura.png" as cover background.
-    This section shoul have an image at the bottom "assets/img/bottombg.png" -->
-    <div class="section section-1">
-
-      <!-- Columna izquierda. -->
-      <img src="assets/img/tomas.png" alt="">
-
-      <!-- Columna derecha. -->
-      <img src="assets/img/logo.png" alt="">
-      <button>DESCARGA EL PROGRAMA</button>
-      <button>REGISTRO VOLUNTARIOS</button>
-
-      <!-- Fixed on right side: -->
-      <div class="d-flex justify-content-center">
-        <a href="https://instagram.com" target="_blank" class="mx-3 text-dark">
-          <i class="bi bi-instagram" style="font-size: 2rem;"></i>
-        </a>
-        <a href="https://twitter.com" target="_blank" class="mx-3 text-dark">
-          <i class="bi bi-twitter" style="font-size: 2rem;"></i>
-        </a>
-        <a href="https://facebook.com" target="_blank" class="mx-3 text-dark">
-          <i class="bi bi-facebook" style="font-size: 2rem;"></i>
-        </a>
-      </div>
+    <!-- Section 1 with background cover and bottom image -->
+    <div class="section section-1 d-flex justify-content-center">
+      <Section1/>
     </div>
 
     <div class="section section-2">Section 2</div>
@@ -50,10 +29,13 @@ onMounted(() => {
 
 <style scoped>
 .section-1 {
-  background-color: #223B82;
+  background-image: url(assets/img/bg.png);
+  background-size: cover;
   height: 100vh;
+  position: relative;
 }
 
+/* Full height sections */
 .section-2 {
   background-color: #E64549;
   height: 100vh;
@@ -64,11 +46,4 @@ onMounted(() => {
   height: 100vh;
 }
 
-.section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: white;
-}
 </style>
