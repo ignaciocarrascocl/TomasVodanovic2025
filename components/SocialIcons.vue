@@ -1,12 +1,12 @@
 <template>
     <div class="fixed-icons d-flex flex-column">
-        <a href="https://instagram.com" target="_blank" class="mx-3 mb-2 text-dark socialIcon">
+        <a href="https://www.instagram.com/tomasvodanovic/" target="_blank" class="mx-3 mb-2 text-dark socialIcon">
             <img src="assets/img/IG.png"  />
         </a>
-        <a href="https://facebook.com" target="_blank" class="mx-3 mb-2 text-white socialIcon">
+        <a href="https://web.facebook.com/TomasVodanovicAlcaldeMaipu/" target="_blank" class="mx-3 mb-2 text-white socialIcon">
             <img src="assets/img/FB.png"  />
         </a>
-        <a href="https://twitter.com" target="_blank" class="mx-3 text-dark socialIcon">
+        <a href="https://x.com/TomasVodanovic" target="_blank" class="mx-3 text-dark socialIcon">
             <img src="assets/img/TW.png"  />
         </a>
     </div>
