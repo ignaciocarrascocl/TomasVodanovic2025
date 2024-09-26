@@ -1,7 +1,7 @@
 <template>
   <div id="fullpage">
     <!-- Section 1 with background cover and bottom image -->
-    <div class="section section-1 d-flex align-items-end">
+    <div class="section section-1 d-flex align-items-end flex-column">
       <Section1/>
     </div>
 
