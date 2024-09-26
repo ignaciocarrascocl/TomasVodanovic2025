@@ -14,7 +14,6 @@
     "@nuxtjs/tailwindcss": "^6.12.1",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "fullpage.js": "^4.0.29",
     "nuxt": "^3.13.0"
   }
 }

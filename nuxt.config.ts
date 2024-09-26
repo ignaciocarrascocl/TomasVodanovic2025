@@ -5,9 +5,7 @@ export default defineNuxtConfig({
   css: [
     '@/assets/main.css',
     'bootstrap/dist/css/bootstrap.min.css',
-    'bootstrap-icons/font/bootstrap-icons.css',
-    'fullpage.js/dist/fullpage.min.css'  // Add fullpage.css here
-  ],
+    'bootstrap-icons/font/bootstrap-icons.css'  ],
   modules: ['@nuxtjs/google-fonts'],
   googleFonts: {
     families: {
