@@ -13,8 +13,8 @@
           
           <!-- Right Column -->
           <div class="col-md-6 text-right pe-4">
-            <img src="assets/img/logo.png" alt="" class="img-fluid">
-            <div class="bajada mt-3 fs-1 text-center"><span class="highlighted">Vota este 26 y 27 de octubre</span><br> en las elecciones municipales de Maipú</div>
+            <img src="assets/img/logo.png" alt="" class="img-fluid pe-4">
+            <div class="bajada mt-3 fs-1 text-center pe-4"><span class="highlighted">Vota este 26 y 27 de octubre</span><br> en las elecciones municipales de Maipú</div>
          <HomeButtons />
          </div>
         </div>
