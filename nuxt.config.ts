@@ -10,6 +10,13 @@ export default defineNuxtConfig({
  ],
  app: {
   head: {
+    title: 'Tomás Vodanovic',
+    meta: [
+      {
+        name: 'description',
+        content: 'Tomás Vodanovic, Alcalde. Sigamos avanzando. Vota este 26 y 27 de octubre en las elecciones municiaples de Maipú.',
+      },
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
