@@ -42,6 +42,8 @@
 }
 @media (max-width: 576px) { /* Adjust the breakpoint as needed */
   .section-1 {
+    background-image: none;
+  background-color: #223B82;
   height: auto;
   padding-top: 6rem;
   }

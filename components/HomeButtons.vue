@@ -33,6 +33,7 @@
 <template>
   <div class="d-flex gap-3 p-4 justify-content-center">
     <!-- Button with document icon -->
+     <a href="#">
     <button
       class="btn btn-program px-4 py-2 animate__animated animate__flipInX animate__delay-1s"
     >
@@ -40,9 +41,11 @@
         <span class="btn-text">DESCARGA ELPROGRAMA</span>
         <i class="bi bi-file-earmark-text ms-2"></i> <!-- Document icon -->
       </div>
-    </button>
+    </button></a>
 
     <!-- Button with WhatsApp icon -->
+
+  <a href="https://chat.whatsapp.com/LJn6bn0Xn5Z9drdnQJrlIk">
     <button
       class="btn btn-volunteer px-4 py-2 animate__animated animate__flipInX animate__delay-1s"
     >
@@ -51,6 +54,7 @@
         <i class="bi bi-whatsapp ms-2"></i> <!-- WhatsApp icon -->
       </div>
     </button>
+  </a>
   </div>
 </template>
 
