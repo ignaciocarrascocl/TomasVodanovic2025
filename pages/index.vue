@@ -29,7 +29,6 @@
 <script setup>
 
 </script>
-
 <style scoped>
 .__nuxt {
   overflow: hidden;
