@@ -11,7 +11,12 @@
     border: none;
   }
 
-  .btn-program:hover, .btn-volunteer:hover {
+  .btn-aporte {
+    background-color:#009E57 ;
+    color: white;
+  }
+
+  .btn-program:hover, .btn-volunteer:hover, .btn-aporte:hover{
     background-color: white;
     color: #223B82;
   }
@@ -55,6 +60,19 @@
       </div>
     </button>
   </a>
+  </div>
+  <div class="ps-4 pe-4">
+    <a href="https://www.servel.cl/aportes/">
+    <button
+      class="btn btn-aporte w-100 px-4 py-2 animate__animated animate__flipInX animate__delay-1s"
+    >
+      <div class="btn-content">
+        <span class="btn-text">HAZ TU APORTE</span>
+        <i class="bi bi-coin ms-2"></i> <!-- WhatsApp icon -->
+      </div>
+    </button>
+  </a>
+
   </div>
 </template>
 

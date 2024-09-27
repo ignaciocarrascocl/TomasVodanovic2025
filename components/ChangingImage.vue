@@ -29,7 +29,7 @@
     height: auto;
   }
 .fixed-mobile-size{
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-wrap: wrap;
     align-items: end;
