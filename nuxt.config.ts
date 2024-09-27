@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   css: [
     '@/assets/main.css',
     'bootstrap/dist/css/bootstrap.min.css',
-    'bootstrap-icons/font/bootstrap-icons.css'  ],
+    'bootstrap-icons/font/bootstrap-icons.css',
+  'animate.css/animate.min.css'
+ ],
+    
   modules: ['@nuxtjs/google-fonts'],
   googleFonts: {
     families: {

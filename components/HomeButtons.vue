@@ -3,14 +3,12 @@
     background-color: #E64549;
     color: white;
     border: none;
-    transition: background-color 0.3s, color 0.3s;
   }
 
   .btn-volunteer {
     background-color: #36A3DC;
     color: white;
     border: none;
-    transition: background-color 0.3s, color 0.3s;
   }
 
   .btn-program:hover, .btn-volunteer:hover {
@@ -22,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     align-items: flex-start;
   }
 
@@ -33,19 +31,27 @@
   }
 </style>
 <template>
-<div class="d-flex gap-3 p-4 justify-content-center ">
-  <button class="btn btn-program px-4 py-2">
-    <div class="btn-content">
-      <span class="btn-text">DESCARGA EL<br>PROGRAMA</span>
-      <i class="bi bi-chevron-right ms-2"></i>
-    </div>
-  </button>
-  <button class="btn btn-volunteer px-4 py-2">
-    <div class="btn-content">
-      <span class="btn-text">INSCRÍBETE<br> COMO<br>VOLUNTARIO</span>
-      <i class="bi bi-chevron-right ms-2"></i>
-    </div>
-  </button>
-</div>
+  <div class="d-flex gap-3 p-4 justify-content-center">
+    <!-- Button with document icon -->
+    <button
+      class="btn btn-program px-4 py-2 animate__animated animate__flipInX animate__delay-1s"
+    >
+      <div class="btn-content">
+        <span class="btn-text">DESCARGA ELPROGRAMA</span>
+        <i class="bi bi-file-earmark-text ms-2"></i> <!-- Document icon -->
+      </div>
+    </button>
+
+    <!-- Button with WhatsApp icon -->
+    <button
+      class="btn btn-volunteer px-4 py-2 animate__animated animate__flipInX animate__delay-1s"
+    >
+      <div class="btn-content">
+        <span class="btn-text">INSCRÍBETE COMO VOLUNTARIO</span>
+        <i class="bi bi-whatsapp ms-2"></i> <!-- WhatsApp icon -->
+      </div>
+    </button>
+  </div>
 </template>
+
 
