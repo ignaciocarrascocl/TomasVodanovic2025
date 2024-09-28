@@ -29,11 +29,13 @@ export default defineNuxtConfig({
   }
 },
 
-  modules: ['@nuxtjs/google-fonts'],
+  modules: ['@nuxtjs/google-fonts', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-P9F3V09H4S'
+  },
   googleFonts: {
     families: {
       Basic: [400] // Load the 400 weight of the "Basic" font
     }
   }
-
 })
