@@ -36,7 +36,7 @@
 .section-1 {
   background-image: url(assets/img/bg.png);
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 @media (max-width: 576px) { /* Adjust the breakpoint as needed */
